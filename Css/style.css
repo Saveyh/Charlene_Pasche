@@ -1,0 +1,23 @@
+body {
+  color: black;
+}
+
+.container {
+}
+.landing h1 {
+  font-size: 76px;
+}
+
+.landing ul {
+  background-color: aqua;
+  flex-direction: row;
+  justify-content: space-around;
+
+  border: 2px rgba(0, 0, 0, 0.15);
+  border-radius: 118px;
+  height: 64px;
+  width: 816px;
+
+  text-decoration: none;
+  list-style-type: none;
+}
