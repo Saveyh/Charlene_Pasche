@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+  overflow-x: hidden;
 }
 
 .landing {
@@ -234,13 +235,123 @@ body {
 
 /* ----------------------------------------------- */
 
+.section7 {
+  position: relative;
+  top: 2px;
+  width: 100vw;
+}
+
 .section7 h2 {
   font-size: 88px;
   margin-bottom: 150px;
 }
 
 /* ----------------------------------------------- */
-
 footer {
+  background-color: #c0bbb4;
+  width: 100vw;
+}
+
+.footer {
   flex-direction: row;
+  justify-content: space-between;
+  width: 1340px;
+  max-width: 1340px;
+  height: 850px;
+  padding: 40px;
+}
+
+.footer .gauche {
+  height: 800px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer h2 {
+  font-size: 64px;
+}
+
+.footer .contact {
+  width: 580px;
+  height: 90px;
+  background-color: #d9d9d9;
+  border: rgba(0, 0, 0, 0.3) solid 3px;
+  flex-direction: row;
+  border-radius: 11px;
+  justify-content: space-between;
+  position: relative;
+  top: -100px;
+}
+
+.footer .contact p {
+  font-size: 24px;
+  color: var(--noir60);
+  position: relative;
+  left: 25px;
+}
+
+.footer .contact a {
+  background-color: #eebc7a;
+  border: rgba(0, 0, 0, 0.23) solid 3px;
+  border-radius: 8px;
+  padding: 18px 80px;
+  margin-right: 7px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.footer .gauche .bas_page {
+  color: var(--noir40);
+  font-size: 20px;
+}
+
+.footer #footer_stars {
+  position: relative;
+  left: 250px;
+  top: -290px;
+}
+
+.footer .droite {
+  height: 800px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer .droite .links {
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  gap: 50px;
+
+  position: relative;
+  left: -30px;
+  top: 30px;
+}
+
+.footer .droite .links h3 {
+  font-size: 22px;
+}
+
+.footer .droite .links .sous_links {
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer .droite .links .sous_links ul {
+  align-items: flex-start;
+  gap: 5px;
+  font-size: 20px;
+  color: var(--noir60);
+}
+
+.footer .droite .links .sous_links .reseaux {
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.footer .droite .links .sous_links .reseaux a:nth-child(2) {
+  position: relative;
+  top: -6px;
 }
