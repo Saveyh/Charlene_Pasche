@@ -104,10 +104,7 @@
 
   .section5 h2 {
     line-height: 85%;
-    font-size: 130px;
-    text-align: center;
-
-    position: relative;
-    top: -480px;
+    font-size: 68px;
+    top: -300px;
   }
 }
