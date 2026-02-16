@@ -2,14 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
   color: black;
+  overflow-x: hidden;
 }
 
 .container {
-  overflow-x: hidden;
+  overflow-x: visible;
+  width: 1440px;
+  position: relative;
+  top: 0;
+  transform-origin: top center;
 }
 
 .landing {
