@@ -107,4 +107,255 @@
     font-size: 68px;
     top: -300px;
   }
+
+  /* ----------------------------------------------- */
+
+  .section6 {
+    position: relative;
+    top: 0px;
+    align-items: flex-start;
+    width: 450px;
+    max-width: 450px;
+  }
+
+  .section6 h2 {
+    font-size: 62px;
+  }
+
+  .section6 .list {
+    width: 450px;
+    max-width: 450px;
+  }
+
+  .section6 .list .el {
+    width: 450px;
+    max-width: 450px;
+  }
+
+  .section6 .list .el .an {
+    font-size: 16px;
+  }
+
+  .section6 .list .el .classement img {
+    top: -4px;
+    height: 30px;
+  }
+
+  .section6 .list .el .rank {
+    font-size: 16px;
+    margin: 0 5px 0 5px;
+  }
+
+  .section6 .list .el .info .haut {
+    font-size: 13px;
+  }
+  .section6 .list .el .info .bas {
+    font-size: 11px;
+  }
+
+  /* ----------------------------------------------- */
+
+  .section7 {
+    position: relative;
+    top: 100px;
+    width: 100vw;
+  }
+
+  .section7 h2 {
+    font-size: 61px;
+    margin-bottom: 50px;
+  }
+
+  /* ----------------------------------------------- */
+
+  footer {
+    background-color: #c0bbb4;
+    width: 500px;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+    max-width: 450px;
+    padding: 0px;
+  }
+
+  .footer .gauche {
+    height: 500px;
+    width: 450px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer h2 {
+    font-size: 37px;
+    width: 470px;
+  }
+
+  .footer .contact {
+    width: 335px;
+    height: 54px;
+    background-color: #d9d9d9;
+    border: rgba(0, 0, 0, 0.3) solid 3px;
+    flex-direction: row;
+    border-radius: 11px;
+    justify-content: space-between;
+    position: relative;
+    top: 0px;
+  }
+
+  .footer .contact p {
+    font-size: 14px;
+    left: 15px;
+  }
+
+  .footer .contact a {
+    padding: 9px 40px;
+    margin-right: 4px;
+    font-size: 14px;
+  }
+
+  .footer .gauche .bas_page {
+    font-size: 12px;
+    margin-top: 200px;
+  }
+
+  .footer #footer_stars {
+    left: 130px;
+    top: -30px;
+    height: 100px;
+  }
+
+  .footer .droite {
+    display: none;
+  }
+
+  .footer .gauche .links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+
+    position: relative;
+    left: 0px;
+    top: 0px;
+  }
+
+  .footer .links h3 {
+    font-size: 19px;
+  }
+
+  .footer .links .sous_links {
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer .links .sous_links ul {
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 17px;
+    color: var(--noir60);
+  }
+
+  .footer .links .sous_links .reseaux {
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: row;
+  }
+
+  .footer .links .sous_links .reseaux a:nth-child(2) {
+    position: relative;
+    top: -6px;
+  }
+
+  #sousligne_footer {
+    position: relative;
+    left: 260px;
+    top: -10px;
+    width: 200px;
+  }
+
+  #signature_footer_mobile {
+    position: absolute;
+    height: 150px;
+    bottom: 30px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    transform: scale(0.96);
+  }
+}
+@media (max-width: 460px) {
+  .container {
+    transform: scale(0.92);
+  }
+}
+@media (max-width: 440px) {
+  .container {
+    transform: scale(0.88);
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    transform: scale(0.84);
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 380px) {
+  .container {
+    transform: scale(0.76);
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    transform: scale(0.72);
+  }
+}
+@media (max-width: 340px) {
+  .container {
+    transform: scale(0.68);
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    transform: scale(0.64);
+  }
+}
+@media (max-width: 300px) {
+  .container {
+    transform: scale(0.6);
+  }
+}
+@media (max-width: 280px) {
+  .container {
+    transform: scale(0.56);
+  }
+}
+@media (max-width: 260px) {
+  .container {
+    transform: scale(0.52);
+  }
+}
+@media (max-width: 240px) {
+  .container {
+    transform: scale(0.48);
+  }
+}
+@media (max-width: 220px) {
+  .container {
+    transform: scale(0.44);
+  }
+}
+@media (max-width: 200px) {
+  .container {
+    transform: scale(0.4);
+  }
 }
