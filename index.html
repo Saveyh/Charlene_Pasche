@@ -12,6 +12,18 @@
     <link rel="stylesheet" href="Css/responsive.css" />
     <link rel="stylesheet" href="Css/mobile.css" />
 
+    <!-- Preload IMG -->
+    <link
+      rel="preload"
+      as="image"
+      href="./Assets/WEBp/background_landing.webp"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./Assets/Mobile/Back_landing_mobile.png"
+    />
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,13 +46,21 @@
         </ul>
 
         <div>
-          <img class="desktop" src="./Assets/PNG/image_landing.png" alt="" />
+          <img
+            class="desktop"
+            src="./Assets/WEBp/image_landing.webp"
+            alt=""
+            fetchpriority="high"
+            loading="eager"
+          />
         </div>
         <div>
           <img
             class="mobile"
             src="./Assets/Mobile/Back_landing_mobile.png"
             alt=""
+            fetchpriority="high"
+            loading="eager"
           />
         </div>
       </div>
@@ -49,7 +69,7 @@
 
       <div class="section2 flex">
         <div class="gauche flex">
-          <img id="img1" src="./Assets/PNG/Stars.png" alt="" />
+          <img id="img1" src="./Assets/WEBp/Stars.webp" alt="" />
           <h2 class="young">A propos de moi</h2>
           <p class="instrument">
             Charlène Pasche s’intéresse dès son jeune âge à la
@@ -67,9 +87,9 @@
             Fédération suisse de gymnastique, où elle y poursuit encore <br />
             aujourd’hui sa formation...
           </p>
-          <img id="img2" src="./Assets/PNG/signature.png" alt="" />
+          <img id="img2" src="./Assets/WEBp/signature.webp" alt="" />
         </div>
-        <img class="desktop" src="./Assets/PNG/img_section2.png" alt="" />
+        <img class="desktop" src="./Assets/WEBp/img_section2.webp" alt="" />
         <img class="mobile" src="./Assets/Mobile/Section2_propos.png" alt="" />
       </div>
 
@@ -77,11 +97,19 @@
 
       <div class="section3 flex">
         <img
+          loading="lazy"
+          fetchpriority="low"
           class="desktop"
-          src="./Assets/PNG/background_section3.png"
+          src="./Assets/WEBp/background_section3.webp"
           alt=""
         />
-        <img class="mobile" src="./Assets/Mobile/Back_section_3.png" alt="" />
+        <img
+          loading="lazy"
+          fetchpriority="low"
+          class="mobile"
+          src="./Assets/Mobile/Back_section_3.png"
+          alt=""
+        />
         <div class="sect3_texte flex">
           <p class="instrument">Objectifs ?</p>
           <h2 class="young">
@@ -100,7 +128,12 @@
         </h2>
         <div class="carousel_media flex">
           <div class="media flex">
-            <img src="./Assets/PNG/media.png" alt="" />
+            <img
+              src="./Assets/WEBp/media.webp"
+              alt=""
+              loading="lazy"
+              fetchpriority="low"
+            />
             <div class="texte flex">
               <p class="instrument">Novembre 2022</p>
               <h3 class="instrument">L'Étrille Curtilloise</h3>
@@ -108,7 +141,12 @@
           </div>
 
           <div class="media flex">
-            <img src="./Assets/PNG/media.png" alt="" />
+            <img
+              src="./Assets/WEBp/media.webp"
+              alt=""
+              loading="lazy"
+              fetchpriority="low"
+            />
             <div class="texte flex">
               <p class="instrument">Novembre 2022</p>
               <h3 class="instrument">L'Étrille Curtilloise</h3>
@@ -116,7 +154,12 @@
           </div>
 
           <div class="media flex">
-            <img src="./Assets/PNG/media.png" alt="" />
+            <img
+              src="./Assets/WEBp/media.webp"
+              alt=""
+              loading="lazy"
+              fetchpriority="low"
+            />
             <div class="texte flex">
               <p class="instrument">Novembre 2022</p>
               <h3 class="instrument">L'Étrille Curtilloise</h3>
@@ -128,11 +171,19 @@
       <!-- ----------------------------------------------------------------- -->
 
       <div class="section5">
-        <img class="desktop" src="./Assets/PNG/sponsors.png" alt="" />
+        <img
+          class="desktop"
+          src="./Assets/WEBp/sponsors.webp"
+          alt=""
+          loading="lazy"
+          fetchpriority="low"
+        />
         <img
           class="mobile"
           src="./Assets/Mobile/Section5_Sponsors.png"
           alt=""
+          loading="lazy"
+          fetchpriority="low"
         />
         <h2 class="young">
           Ils me soutiennent <br />
@@ -149,9 +200,19 @@
           <div class="el flex">
             <p class="an">2023</p>
             <div class="classement flex">
-              <img src="./Assets/PNG/Laurel_Wreath_gauche.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_gauche.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
               <p class="rank">1ère place</p>
-              <img src="./Assets/PNG/Laurel_Wreath_droite.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_droite.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
             </div>
 
             <div class="info flex">
@@ -164,9 +225,19 @@
           <div class="el flex">
             <p class="an">2023</p>
             <div class="classement flex">
-              <img src="./Assets/PNG/Laurel_Wreath_gauche.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_gauche.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
               <p class="rank">1ère place</p>
-              <img src="./Assets/PNG/Laurel_Wreath_droite.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_droite.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
             </div>
 
             <div class="info flex">
@@ -179,9 +250,19 @@
           <div class="el flex">
             <p class="an">2023</p>
             <div class="classement flex">
-              <img src="./Assets/PNG/Laurel_Wreath_gauche.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_gauche.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
               <p class="rank">1ère place</p>
-              <img src="./Assets/PNG/Laurel_Wreath_droite.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_droite.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
             </div>
 
             <div class="info flex">
@@ -194,9 +275,19 @@
           <div class="el flex">
             <p class="an">2023</p>
             <div class="classement flex">
-              <img src="./Assets/PNG/Laurel_Wreath_gauche.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_gauche.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
               <p class="rank">1ère place</p>
-              <img src="./Assets/PNG/Laurel_Wreath_droite.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_droite.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
             </div>
 
             <div class="info flex">
@@ -209,9 +300,19 @@
           <div class="el flex">
             <p class="an">2023</p>
             <div class="classement flex">
-              <img src="./Assets/PNG/Laurel_Wreath_gauche.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_gauche.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
               <p class="rank">1ère place</p>
-              <img src="./Assets/PNG/Laurel_Wreath_droite.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_droite.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
             </div>
 
             <div class="info flex">
@@ -224,9 +325,19 @@
           <div class="el flex">
             <p class="an">2023</p>
             <div class="classement flex">
-              <img src="./Assets/PNG/Laurel_Wreath_gauche.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_gauche.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
               <p class="rank">1ère place</p>
-              <img src="./Assets/PNG/Laurel_Wreath_droite.png" alt="" />
+              <img
+                src="./Assets/WEBp/Laurel_Wreath_droite.webp"
+                alt=""
+                loading="lazy"
+                fetchpriority="low"
+              />
             </div>
 
             <div class="info flex">
@@ -241,7 +352,12 @@
 
       <div class="section7 flex">
         <h2 class="young">Mes Essentiels</h2>
-        <img src="./Assets/SVG/essentiels_background.svg" alt="" />
+        <img
+          src="./Assets/SVG/essentiels_background.svg"
+          alt=""
+          loading="lazy"
+          fetchpriority="low"
+        />
       </div>
 
       <!-- ----------------------------------------------------------------- -->
@@ -255,13 +371,21 @@
                 id="sousligne_footer"
                 src="./Assets/SVG/ligne_footer.svg"
                 alt=""
+                loading="lazy"
+                fetchpriority="low"
               />
             </div>
             <div class="contact instrument flex">
               <p>Envie de discuter ?</p>
               <a href="mailto:charlene@email-test.ch">Contact</a>
             </div>
-            <img id="footer_stars" src="./Assets/PNG/stars_footer.png" alt="" />
+            <img
+              id="footer_stars"
+              src="./Assets/WEBp/stars_footer.webp"
+              alt=""
+              loading="lazy"
+              fetchpriority="low"
+            />
 
             <div class="links flex mobile">
               <div class="links_gauche sous_links flex">
@@ -278,16 +402,30 @@
               <div class="links_droite sous_links flex">
                 <h3>Réseaux</h3>
                 <ul class="flex reseaux">
-                  <a href=""><img src="./Assets/SVG/insta.svg" alt="" /></a>
-                  <a href=""><img src="./Assets/SVG/youtube.svg" alt="" /></a>
+                  <a href=""
+                    ><img
+                      src="./Assets/SVG/insta.svg"
+                      alt=""
+                      loading="lazy"
+                      fetchpriority="low"
+                  /></a>
+                  <a href=""
+                    ><img
+                      src="./Assets/SVG/youtube.svg"
+                      alt=""
+                      loading="lazy"
+                      fetchpriority="low"
+                  /></a>
                 </ul>
               </div>
             </div>
 
             <img
+              loading="lazy"
+              fetchpriority="low"
               id="signature_footer_mobile"
               class="mobile"
-              src="./Assets/PNG/Signature_footer.png"
+              src="./Assets/WEBp/Signature_footer.webp"
               alt="Signature manuscrite Charlène Pasche"
             />
 
@@ -310,16 +448,30 @@
               <div class="links_droite sous_links flex">
                 <h3>Réseaux</h3>
                 <ul class="flex reseaux">
-                  <a href=""><img src="./Assets/SVG/insta.svg" alt="" /></a>
-                  <a href=""><img src="./Assets/SVG/youtube.svg" alt="" /></a>
+                  <a href=""
+                    ><img
+                      src="./Assets/SVG/insta.svg"
+                      alt=""
+                      loading="lazy"
+                      fetchpriority="low"
+                  /></a>
+                  <a href=""
+                    ><img
+                      src="./Assets/SVG/youtube.svg"
+                      alt=""
+                      loading="lazy"
+                      fetchpriority="low"
+                  /></a>
                 </ul>
               </div>
             </div>
 
             <img
               class="desktop"
-              src="./Assets/PNG/Signature_footer.png"
+              src="./Assets/WEBp/Signature_footer.webp"
               alt="Signature manuscrite Charlène Pasche"
+              loading="lazy"
+              fetchpriority="low"
             />
           </div>
         </div>
