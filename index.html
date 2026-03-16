@@ -35,6 +35,8 @@
 
     <!-- Gsap -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js"></script>
+    </script>
   </head>
   <body class="flex">
     <div class="container flex">
@@ -96,11 +98,36 @@
         <h1 class="damion">Charlène</h1>
 
         <ul class="montserrat flex">
-          <li><a href="">A propos</a></li>
-          <li><a href="">Palmarès</a></li>
-          <li><a href="">Media</a></li>
-          <li><a href="">Sponsors</a></li>
-          <li><a href="">Contact</a></li>
+          <li>
+            <a data-draw-line="" href="#" class="text-draw">
+              <span class="text-draw__span">Moi</span>
+              <div data-draw-line-box="" class="text-draw__box"></div>
+            </a>
+          </li>
+          <li>
+            <a data-draw-line="" href="#" class="text-draw">
+              <span class="text-draw__span">Palmarès</span>
+              <div data-draw-line-box="" class="text-draw__box"></div>
+            </a>
+          </li>
+          <li>
+            <a data-draw-line="" href="#" class="text-draw">
+              <span class="text-draw__span">Media</span>
+              <div data-draw-line-box="" class="text-draw__box"></div>
+            </a>
+          </li>
+          <li>
+            <a data-draw-line="" href="#" class="text-draw">
+              <span class="text-draw__span">Sponsors</span>
+              <div data-draw-line-box="" class="text-draw__box"></div>
+            </a>
+          </li>
+          <li>
+            <a data-draw-line="" href="#" class="text-draw">
+              <span class="text-draw__span">Contact</span>
+              <div data-draw-line-box="" class="text-draw__box"></div>
+            </a>
+          </li>
         </ul>
 
         <div>
@@ -543,5 +570,6 @@
     <!-- ----------------------------- Script JS ----------------------------- -->
     <script src="JS/body_resize.js"></script>
     <script src="JS/loading.js"></script>
+    <script src="JS/random_underline.js"></script>
   </body>
 </html>
