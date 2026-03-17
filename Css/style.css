@@ -92,7 +92,7 @@ body {
 
 .landing img {
   position: relative;
-  top: -70px;
+  top: -42.5px;
 }
 
 /* ----------------------------------------------- */
@@ -139,6 +139,7 @@ body {
 .sect3_texte {
   position: relative;
   top: -800px;
+  color: #ffffff;
 }
 
 .section3 p {
@@ -302,8 +303,9 @@ body {
 
 /* ----------------------------------------------- */
 footer {
-  background-color: #c0bbb4;
+  background-color: #413653;
   width: 100vw;
+  color: #ffffff;
 }
 
 @media (max-width: 1440px) {
@@ -313,7 +315,7 @@ footer {
 }
 
 .footer {
-  background-color: #c0bbb4;
+  background-color: #413653;
   flex-direction: row;
   justify-content: space-between;
   width: 1340px;
@@ -406,6 +408,10 @@ footer {
   color: var(--noir60);
 }
 
+.white_text {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
 .footer .droite .links .sous_links .reseaux {
   align-items: flex-start;
   gap: 10px;
@@ -415,4 +421,9 @@ footer {
 .footer .droite .links .sous_links .reseaux a:nth-child(2) {
   position: relative;
   top: -6px;
+}
+
+#youtube {
+  position: relative;
+  top: 7px;
 }
