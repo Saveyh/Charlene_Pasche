@@ -24,6 +24,11 @@
     z-index: 3;
   }
 
+  #landing_img {
+    position: relative;
+    top: -50px;
+  }
+
   /* ----------------------------------------------- */
 
   .section2 {
@@ -169,7 +174,7 @@
   /* ----------------------------------------------- */
 
   footer {
-    background-color: #c0bbb4;
+    background-color: #413653;
     width: 500px;
   }
 
