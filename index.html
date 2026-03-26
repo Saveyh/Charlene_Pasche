@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="Css/responsive.css" />
     <link rel="stylesheet" href="Css/mobile.css" />
     <link rel="stylesheet" href="Css/loading.css" />
+    <link rel="stylesheet" href="Css/cursor.css">
 
     <!-- Preload IMG -->
     <link
@@ -36,62 +37,13 @@
     <!-- Gsap -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
     </script>
   </head>
   <body class="flex">
+    <div class="cursor"></div>
     <div class="container flex">
-      <!-- ------------ Loader OSMO --------------- -->
-      <!-- <section class="willem-header is--loading is--hidden">
-        <div class="willem-loader">
-          <div class="willem__h1">
-            <div class="willem__h1-start">
-              <span class="willem__letter">C</span>
-              <span class="willem__letter">h</span>
-              <span class="willem__letter">a</span>
-              <span class="willem__letter">r</span>
-            </div>
-            <div class="willem-loader__box">
-              <div class="willem-loader__box-inner">
-                <div class="willem__growing-image">
-                  <div class="willem__growing-image-wrap">
-                    <img
-                      class="willem__cover-image-extra is--1"
-                      src="Assets/WEBp/1.jpg"
-                      loading="lazy"
-                      alt=""
-                    />
-                    <img
-                      class="willem__cover-image-extra is--2"
-                      src="Assets/WEBp/2.jpg"
-                      loading="lazy"
-                      alt=""
-                    />
-                    <img
-                      class="willem__cover-image-extra is--3"
-                      src="Assets/WEBp/3.jpg"
-                      loading="lazy"
-                      alt=""
-                    />
-                    <img
-                      class="willem__cover-image"
-                      src="Assets/WEBp/3.jpg"
-                      loading="lazy"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="willem__h1-end">
-              <span class="willem__letter">l</span>
-              <span class="willem__letter">è</span>
-              <span class="willem__letter">n</span>
-              <span class="willem__letter">e</span>
-            </div>
-          </div>
-        </div>
-        <div class="willem-header__content"></div>
-      </section> -->
 
       <!-- -------------- Début page -->
       <div class="landing flex">
@@ -155,8 +107,8 @@
       <div class="section2 flex">
         <div class="gauche flex">
           <img id="img1" src="./Assets/WEBp/Stars.webp" alt="" />
-          <h2 class="young">A propos de moi</h2>
-          <p class="instrument">
+          <h2 data-split="heading" class="young">A propos de moi</h2>
+          <p data-split="heading" class="instrument">
             Charlène Pasche s’intéresse dès son jeune âge à la
             <strong>danse classique</strong>, à <br />
             la <strong>musique</strong> et au <strong>piano</strong>. En 2016,
@@ -200,7 +152,6 @@
           alt=""
         />
         <div class="sect3_texte flex">
-          <p class="instrument">Objectifs ?</p>
           <h2 class="young">
             Accomplir <br />
             mes Rêves
@@ -211,7 +162,7 @@
       <!-- ----------------------------------------------------------------- -->
 
       <div class="section4 flex">
-        <h2 class="young">
+        <h2 data-split="heading" class="young">
           Apparitions <br />
           sur les médias
         </h2>
@@ -287,8 +238,8 @@
       <!-- ----------------------------------------------------------------- -->
 
       <div class="section6 flex">
-        <h2 class="young">Palmarès</h2>
-        <div class="list flex instrument">
+        <h2 data-split="heading" class="young">Palmarès</h2>
+        <div data-split="heading" class="list flex instrument">
           <hr />
           <div class="el flex">
             <p class="an">2025</p>
@@ -444,7 +395,7 @@
       <!-- ----------------------------------------------------------------- -->
 
       <div class="section7 flex">
-        <h2 class="young">Mes Essentiels</h2>
+        <h2 data-split="heading" class="young">Mes Essentiels</h2>
         <img
           src="./Assets/WEBp/essentiels_background.webp"
           alt=""
@@ -578,5 +529,7 @@
     <script src="JS/body_resize.js"></script>
     <script src="JS/loading.js"></script>
     <script src="JS/random_underline.js"></script>
+    <script src="JS/cursor.js"></script>
+    <script src="JS/masked-text-reveal.js"></script>
   </body>
 </html>
